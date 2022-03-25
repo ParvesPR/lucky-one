@@ -1,0 +1,16 @@
+.place {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.place img {
+    width: 285px;
+    height: 285px;
+    margin: 8px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.place h2 {
+    margin-top: 0px;
+}
