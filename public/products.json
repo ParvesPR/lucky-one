@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Savar Sritisowdho",
+        "id": 1,
+        "price": 11900,
+        "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b2/0e/1d/national-memmorial-front.jpg?w=500&h=400&s=1"
+    },
+    {
+        "name": "Mohasthan",
+        "id": 2,
+        "price": 8500,
+        "img": "https://www.assignmentpoint.com/wp-content/uploads/2017/10/Manasthangarh.jpg"
+    },
+    {
+        "name": "Kantanagar-Temple",
+        "id": 3,
+        "price": 10300,
+        "img": "https://www.assignmentpoint.com/wp-content/uploads/2017/10/Kantanagar-Temple-2.jpg"
+    },
+    {
+        "name": "Vinno-Jogot",
+        "id": 4,
+        "price": 11300,
+        "img": "https://cdn.bmy.guide/images/688x350/1d23013fcce7103ad36ce4b573d79f64_original.jpg"
+    },
+    {
+        "name": "Shongshod Vobon",
+        "id": 5,
+        "price": 12500,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/National_Assembly_of_Bangladesh_%28%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A6%A6_%E0%A6%AD%E0%A6%AC%E0%A6%A8%29.jpg/1024px-National_Assembly_of_Bangladesh_%28%E0%A6%9C%E0%A6%BE%E0%A6%A4%E0%A7%80%E0%A6%AF%E0%A6%BC_%E0%A6%B8%E0%A6%82%E0%A6%B8%E0%A6%A6_%E0%A6%AD%E0%A6%AC%E0%A6%A8%29.jpg"
+    },
+    {
+        "name": "RangaMati",
+        "id": 6,
+        "price": 22500,
+        "img": "https://blogger.googleusercontent.com/img/a/AVvXsEi0Pc6gRtG9CKjEsYFsVr_DoDevNH_Zs26xPb2Rs8AYCFyDUnOn9w47smPi_E6iOJcnABHGC6D9Iubn9TnXGCjKf3PsSBNmujbmU4RuMsQp4GnyCmGDfdJ3MPjM9xqhL7oOKgXXFClIx7F2S5sIriPPIHuc_2Of8bRyqUG1MazShOaXmxxaA3V7TDolUg=w0"
+    },
+    {
+        "name": "Cox-Bazar",
+        "id": 7,
+        "price": 24500,
+        "img": "https://i.pinimg.com/736x/38/63/30/386330f28d51c98a98ddaedbc6054d15.jpg"
+    },
+    {
+        "name": "Potenga",
+        "id": 8,
+        "price": 21500,
+        "img": "https://d30fl32nd2baj9.cloudfront.net/media/2020/05/25/patenga-beach-eid-250520-01.jpg/BINARY/patenga-beach-eid-250520-01.jpg"
+    },
+    {
+        "name": "Sylhet Tea Garden",
+        "id": 9,
+        "price": 21500,
+        "img": "https://d30fl32nd2baj9.cloudfront.net/media/2020/05/25/patenga-beach-eid-250520-01.jpg/BINARY/patenga-beach-eid-250520-01.jpg"
+    },
+    
+]
