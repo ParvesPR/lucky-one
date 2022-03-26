@@ -37,7 +37,7 @@
     background: salmon;
     border: none;
     border-radius: 3px;
-    z-index: 11;
+    z-index: 1;
     transition: .7s;
 }
 
@@ -55,4 +55,10 @@
     background: saddlebrown;
     color: white;
     cursor: pointer;
+}
+@media screen and (max-width:768px) {
+    .place {
+        width: 300px;
+    }
+
 }
