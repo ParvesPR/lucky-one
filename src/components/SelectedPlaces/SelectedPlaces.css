@@ -17,6 +17,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: sticky;
+    top: 0;
 }
 
 .choose2 {
@@ -28,4 +30,6 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: sticky;
+    top: 0;
 }
