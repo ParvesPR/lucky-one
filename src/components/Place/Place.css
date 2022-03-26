@@ -15,22 +15,44 @@
     margin-top: 0px;
 }
 
+.booking-btn::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: saddlebrown;
+    border-radius: 3px;
+    z-index: -1;
+    transition: .7s;
+}
+
 .booking-btn {
     display: flex;
     align-items: center;
+    position: relative;
     padding: 0px 10px;
     margin: 15px auto;
     background: salmon;
     border: none;
     border-radius: 3px;
-    transition: .5s;
+    z-index: 11;
+    transition: .7s;
+}
+
+.booking-btn:hover::before {
+    width: 100%;
+    transition: .7s;
 }
 
 .btn-text {
     font-weight: bold;
     margin-right: 10px;
 }
-.booking-btn:hover{
+
+.booking-btn:hover {
     background: saddlebrown;
     color: white;
+    cursor: pointer;
 }
