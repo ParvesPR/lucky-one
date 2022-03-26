@@ -1,0 +1,17 @@
+.places-container {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.places-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+    margin-right: 20px;
+    gap: 25px;
+}
+.selected-place-wrapper{
+   
+}

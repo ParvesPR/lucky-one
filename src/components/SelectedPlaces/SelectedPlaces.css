@@ -1,0 +1,37 @@
+.selected-container {
+    background: salmon;
+    padding: 15px;
+    border-radius: 8px 0px 0px 8px;
+    position: sticky;
+    top: 0;
+}
+
+.selected-btn {
+    display: grid;
+    grid-template-rows: 2;
+    width: 75%;
+    margin: left;
+    row-gap: 15px;
+}
+
+.choose {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choose2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: slategrey;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
