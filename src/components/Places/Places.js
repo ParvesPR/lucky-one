@@ -17,6 +17,21 @@ const Places = () => {
         const newSelect = [...selected, place];
         setSelected(newSelect);
     };
+    const chooseAgain = () => {
+        setSelected([])
+    };
+
+    const chooseHandleOne = () => {
+        if (selected.length === 0) {
+            alert('Please add item to choose')
+        }
+
+        else {
+            const newCart = [...selected]
+            const randomCart = Math.floor(Math.random() * newCart.length);
+            alert('Your Random product is:' + newCart[randomCart].name)
+        }
+    }
     return (
         <div className='places-container'>
             <div className='places-wrapper'>
@@ -29,8 +44,12 @@ const Places = () => {
                 }
             </div>
             <div className='selected-place-wrapper'>
+                {
+                    selected.map(select => <h4 className='place-name' key={select.id}> <li>{select.name} <img src={select.img} alt="" /></li></h4>)
+                }
                 <SelectedPlaces
-                    selected={selected}
+                    chooseHandleOne={chooseHandleOne}
+                    chooseAgain={chooseAgain}
                 ></SelectedPlaces>
             </div>
         </div>

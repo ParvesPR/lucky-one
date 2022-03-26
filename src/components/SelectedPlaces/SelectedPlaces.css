@@ -1,17 +1,11 @@
-.selected-container {
-    background: salmon;
-    padding: 15px;
-    border-radius: 8px 0px 0px 8px;
-    position: sticky;
-    top: 0;
-}
-
 .selected-btn {
     display: grid;
     grid-template-rows: 2;
     width: 75%;
     margin: left;
     row-gap: 15px;
+    position: sticky;
+    top: 0;
 }
 
 .choose {

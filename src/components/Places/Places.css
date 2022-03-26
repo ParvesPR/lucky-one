@@ -3,6 +3,7 @@
     grid-template-columns: 4fr 2fr;
     gap: 10px;
     margin-top: 40px;
+    position: relative;
 }
 
 .places-wrapper {
@@ -13,5 +14,28 @@
     gap: 25px;
 }
 .selected-place-wrapper{
-   
+    background: salmon;
+    padding: 15px;
+    border-radius: 8px 0px 0px 8px;
+    position: sticky;
+    top: 0;
+}
+.place-name{
+    position: sticky;
+    top: 0;
+}
+.place-name li{
+    list-style: none;
+    text-align: start;
+    background: #ddd;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.place-name li img{
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 100px;
 }
