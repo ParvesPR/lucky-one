@@ -29,7 +29,9 @@ const Places = () => {
         else {
             const newCart = [...selected]
             const randomCart = Math.floor(Math.random() * newCart.length);
-            alert('Your Random product is:' + newCart[randomCart].name)
+            setSelected([]);
+            setSelected([newCart[randomCart]])
+            // alert('Your Random product is:' + newCart[randomCart].name)
         }
     }
     return (

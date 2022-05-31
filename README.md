@@ -4,7 +4,7 @@ Click here to see live site [Live Site](https://lucky-js.netlify.app/).
 
 ## Available Scripts
 
-In the project directory, you can run:
+Simple React Project
 
 ### `npm start`
 
